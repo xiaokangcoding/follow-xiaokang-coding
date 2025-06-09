@@ -125,7 +125,7 @@
 
 - 📧 **邮箱**：xiaokang@example.com
 - 🐙 **GitHub**：[@xiaokangcoding](https://github.com/xiaokangcoding)
-- 💼 **知乎**：跟着小康学编程
+- 💼 **公众号**：跟着小康学编程，微信搜索即可关注。
 
 ## 📄 许可证
 
