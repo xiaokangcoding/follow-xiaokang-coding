@@ -183,11 +183,11 @@
 
 ## 📞 联系方式
 
-### 🔔 关注公众号：小康编程
+### 🔔 关注公众号：跟着小康编程
 
 <div align="center">
-<img src="./images/qrcode-wechat-official.png" width="200" alt="小康编程公众号二维码">
-<p><em>扫码关注公众号，获取最新技术文章</em></p>
+<img src="./images/qrcode-wechat-official.png" width="250" alt="小康编程公众号二维码">
+<p>扫码关注公众号，获取最新技术文章</p>
 </div>
 
 > 公众号每周更新2-3篇高质量技术文章，涵盖Linux C/C++开发、数据库优化、系统设计等核心技术点。还有独家项目实战教程和面试经验分享！
@@ -195,8 +195,8 @@
 ### 💬 加入技术交流群
 
 <div align="center">
-<img src="./images/qrcode-personal-wechat.png" width="200" alt="个人微信二维码">
-<p><em>扫码添加个人微信，备注：GitHub</em></p>
+<img src="./images/qrcode-personal-wechat.png" width="250" alt="个人微信二维码">
+<p>扫码添加个人微信，备注：加群</p>
 </div>
 
 🌟 **群内福利**：
@@ -206,7 +206,7 @@
 - 🚀 项目合作机会
 - 📈 职业发展建议
 
-> 添加微信时请备注：GitHub，通过验证后会邀请您加入技术交流群
+> 添加微信时请备注：加群，通过验证后会邀请您加入技术交流群
 
 ---
 
