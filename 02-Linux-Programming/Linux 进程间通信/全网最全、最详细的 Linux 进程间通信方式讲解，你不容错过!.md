@@ -14,14 +14,14 @@
 
 > 💡 学习建议：边看边动手实践，自己写示例、观察进程行为，是理解 IPC 的最佳方式！
 > 
-> 如果在学习过程中遇到问题，或者想获取更多 Linux、C/C++、Go 后端开发等技术干货，欢迎关注我的公众号「跟着小康编程」。有问题也可以添加我的个人微信交流讨论。
+> 如果在学习过程中遇到问题，或者想获取更多 Linux、C/C++、Go 后端开发等技术干货，欢迎关注我的公众号「跟着小康学编程」。有问题也可以添加我的个人微信交流讨论。
 > 
 > <table>
 > <tr>
 > <td align="center">
 > <img src="https://github.com/xiaokangcoding/follow-xiaokang-coding/raw/main/images/qrcode-wechat-official.png" width="200">
 > <br>
-> <em>公众号「跟着小康编程」</em>
+> <em>公众号「跟着学小康编程」</em>
 > </td>
 > <td align="center">
 > <img src="https://github.com/xiaokangcoding/follow-xiaokang-coding/raw/main/images/qrcode-personal-wechat.png" width="200">
