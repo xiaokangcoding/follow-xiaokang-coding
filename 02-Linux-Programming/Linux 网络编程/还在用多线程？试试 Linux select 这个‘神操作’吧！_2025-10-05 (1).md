@@ -72,10 +72,10 @@
 > </tr>
 > </table>
 
-#### 3、select 函数和 fd_set 相关接口
+### 3、select 函数和 fd_set 相关接口
 在实际使用 `select` 时，我们会用到几个重要的函数和宏，分别是 `select()` 本身，以及操作 `fd_set` 结构的 `FD_ZERO`、`FD_SET`、`FD_CLR`、`FD_ISSET` 等宏函数。
 
-### 3.1 `select()` 函数
+#### 3.1 `select()` 函数
 `select()` 是 `I/O` 复用的核心函数，用来等待多个文件描述符的状态变化。
 
 **函数原型**：
@@ -99,7 +99,7 @@ int select(int nfds, fd_set *readfds, fd_set *writefds, fd_set *exceptfds, struc
 + 返回值大于 0：表示有文件描述符发生了事件，具体可以通过 `fd_set` 检查。
 + 返回值为 -1：表示调用失败，`errno` 记录了具体的错误。
 
-### 3.2 `fd_set` 相关宏函数
+#### 3.2 `fd_set` 相关宏函数
 在 `select` 中，我们使用 `fd_set` 结构来标记哪些文件描述符需要被监控。这里有几个重要的宏函数，用于操作 `fd_set`。
 
 + `FD_ZERO(&fd_set)`：将 `fd_set` 清空，所有位清零。
@@ -107,7 +107,7 @@ int select(int nfds, fd_set *readfds, fd_set *writefds, fd_set *exceptfds, struc
 + `FD_CLR(fd, &fd_set)`：将指定的文件描述符 `fd` 从 `fd_set` 中移除，即把 `fd_set` 中 `fd` 的位清零。
 + `FD_ISSET(fd, &fd_set)`：检查 `fd_set` 中指定的文件描述符 `fd` 是否被设置为 1，若为 1 表示该文件描述符有事件发生。
 
-### 3.3 代码示例：初始化和操作 `fd_set`
+#### 3.3 代码示例：初始化和操作 `fd_set`
 ```c++
 
 #include <sys/select.h>
