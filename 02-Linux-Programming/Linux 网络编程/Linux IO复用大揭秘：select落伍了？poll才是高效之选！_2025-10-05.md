@@ -1,17 +1,14 @@
----
 
-# Linux Socket 编程（六）| I/O 复用之 poll 篇
+# Linux Socket 编程 | I/O 复用进阶篇：彻底搞懂 poll！
 大家好，我是小康 👋
 
 还记得我们上次聊的 `select` 吗？如果说 `select` 是 Linux I/O 复用机制的入门级角色，那今天登场的 `**poll**` 就是它的进阶版兄弟——更灵活、更强大，也更贴近真实服务器开发的需求。
 
-在并发连接数少的时候，`select` 表现还行；但一旦连接数多了，它的种种“老毛病”就暴露出来了，比如只能监控 1024 个文件描述符、每次都要重置 fd 集合、性能随连接数下降……  
+在并发连接数少的时候，`select` 表现还行；但一旦连接数多了，它的种种“老毛病”就暴露出来了，比如只能监控 1024 个文件描述符、每次都要重置 fd 集合、性能随连接数增多而下降……  
 这时候，`poll` 闪亮登场！💥
 
 今天这篇文章，会带你从 “啥是 poll” 到 “怎么用 poll”，全程轻松搞定不烧脑。  
 准备好了吗？咱们开始进阶之旅！🚀
-
----
 
 ## 一、poll 是个啥？和 select 有啥不一样？
 还记得 `select` 吧？它的核心思想是：
@@ -20,7 +17,6 @@
 
 `poll` 其实干的也是同一件事——只是换了个更聪明的做法。
 
----
 
 ### 1. 先回顾一下 select 的缺点 🧱
 `select` 的确是经典，但也确实老了，主要痛点如下：
@@ -29,7 +25,6 @@
 + **效率问题**：每次调用前都要重新“打包”一堆 fd 集合交给内核，哪怕其中大部分并没有变化。
 + **状态重置麻烦**：每次返回后集合都会被修改，下次再用必须重置，非常繁琐。
 
----
 
 ### 2. poll 的改进点 🚀
 于是 Linux 推出了更强的 `poll`，它在机制上对 `select` 做了系统性优化：
@@ -41,7 +36,29 @@
 
 可以说，`poll` 继承了 `select` 的优点，又解决了它的短板，是 I/O 复用机制的一次重要升级。
 
----
+> 💡 小贴士：
+>
+>后续文章中，我们还会继续进化，学习 Linux 下更高效的 I/O 复用神器——`epoll`！  
+>
+>如果你还没看过本系列的前几篇（单进程、多进程、多线程、select 篇），建议先补一下，这样你能完整理解整个 I/O 模型的演进路线。
+>
+> 另外，所有源码、思维导图与学习路线图，我都整理在了 GitHub 仓库：  
+>👉 [https://github.com/xiaokangcoding/follow-xiaokang-coding](https://github.com/xiaokangcoding/follow-xiaokang-coding) 
+> > 如果在学习过程中遇到问题，或者想获取更多 Linux、C/C++、Go 后端开发等技术干货，欢迎关注我的公众号「跟着小康学编程」。有问题也可以添加我的个人微信交流讨论。
+> <table>
+> <tr>
+> <td align="center">
+> <img src="https://github.com/xiaokangcoding/follow-xiaokang-coding/raw/main/images/qrcode-wechat-official.png" width="200">
+> <br>
+> <em>公众号「跟着学小康编程」</em>
+> </td>
+> <td align="center">
+> <img src="https://github.com/xiaokangcoding/follow-xiaokang-coding/raw/main/images/qrcode-personal-wechat.png" width="200">
+> <br>
+> <em>个人微信（备注：加群）</em>
+> </td>
+> </tr>
+> </table>
 
 ## 二、poll 怎么用？从 0 到 1 完整走一遍！
 
@@ -301,9 +318,8 @@ int main() {
 
 这样，通过 `poll`，我们就实现了一个可以同时管理多个客户端的聊天服务器。
 
-为了不让篇幅过长，我将 select 实现的并发服务器和客户端代码放在公众号后台了，有需要的小伙伴可以微信搜索「**跟着小康学编程**」关注公众号后，在后台回复「**select**」即可获取完整代码示例。
+> 为了不让篇幅过长，我将 select 实现的并发服务器和客户端代码放在公众号后台了，有需要的小伙伴可以微信搜索「**跟着小康学编程**」关注公众号后，在后台回复「**select**」即可获取完整代码示例。
 
-**或者点击下方公众号名片关注**:
 
 ## 三、poll 的优缺点
 
@@ -343,22 +359,6 @@ int main() {
 下次，我们就来聊聊这个更厉害的 epoll，看看它为什么是高并发的最佳选择！
 
 如果觉得今天的内容有帮助，别忘了点赞、分享、在看！让更多小伙伴一起轻松入门 Linux I/O 复用。敬请期待后续更有趣的内容！
-
-
----
-
-💡 **小贴士**
-
-后续文章中，我们还会继续进化，学习 Linux 下更高效的 I/O 复用神器——`epoll`！  
-如果你还没看过本系列的前几篇（单进程、多进程、多线程、select 篇），建议先补一下，这样你能完整理解整个 I/O 模型的演进路线。
-
-另外，所有源码、思维导图与学习路线图，我都整理在了 GitHub 仓库：  
-👉 [https://github.com/xiaokangcoding/follow-xiaokang-coding](https://github.com/xiaokangcoding/follow-xiaokang-coding)
-
-想获取更多 Linux / C / C++ / 后端实战干货，欢迎关注我的公众号👇
-
----
-
 
 
 ## 关注我能学到什么？
