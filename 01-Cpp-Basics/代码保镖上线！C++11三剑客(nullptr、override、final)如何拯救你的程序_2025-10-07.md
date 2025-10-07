@@ -4,6 +4,34 @@
 
 如果你点头了，那这篇文章绝对是为你量身定做的！今天就带大家看看 C++11 是如何用三个超实用的新特性——`nullptr`、`override`和`final`，让你的代码不再"裸奔"！
 
+> 💡 学习建议：
+>
+>别只看语法，用例子跑一跑！ 看看 nullptr 和 NULL 在函数重载时的区别，印象更深。
+>
+>结合继承场景理解 override 与 final：试着写几个错误示例，让编译器帮你“报警”。
+>
+>多对比旧代码和新写法：体会 C++11 的设计初衷——安全与清晰。
+>
+>逐步养成习惯：哪怕是小项目，也尽量用 nullptr、override、final，让好习惯自动化。
+>
+>想系统学习更多 C++ 知识？欢迎关注我的公众号「**跟着小康编程**」，我会持续更新 C、 C++、Linux、后端开发等高质量技术文章。也可以加我的个人微信，一起进群讨论学习！
+>
+> 
+> <table>
+> <tr>
+> <td align="center">
+> <img src="https://github.com/xiaokangcoding/follow-xiaokang-coding/raw/main/images/qrcode-wechat-official.png" width="200">
+> <br>
+> <em>公众号「跟着学小康编程」</em>
+> </td>
+> <td align="center">
+> <img src="https://github.com/xiaokangcoding/follow-xiaokang-coding/raw/main/images/qrcode-personal-wechat.png" width="200">
+> <br>
+> <em>个人微信（备注：加群）</em>
+> </td>
+> </tr>
+> </table>
+
 ## nullptr：别再用 0 和 NULL 装空指针了！
 
 还记得那些深夜调试的恐怖时刻吗？你满心欢喜地写下：

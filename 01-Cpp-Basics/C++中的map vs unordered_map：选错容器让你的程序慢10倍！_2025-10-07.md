@@ -3,6 +3,36 @@
 
 选错了容器，你的程序可能就慢了 10 倍不止！这可不是危言耸听，而是实打实的性能差距。
 
+> 💡 学习建议：
+>
+>动手写代码对比：分别用 map 和 unordered_map 处理同样的数据量，打印执行时间，感受差异。
+>
+>阅读源码或调试 STL 容器实现：尤其是 std::_Rb_tree 和哈希桶实现，对理解底层机制非常有帮助。
+>
+>不要迷信 unordered_map 更快——哈希冲突严重时，它甚至可能比 map 还慢！
+>
+>关注内存占用：哈希表为追求速度会牺牲内存，某些嵌入式或高性能场景要谨慎。
+>
+>理解场景优先级：查找多、插入少、顺序重要 → map；随机访问多、不关心顺序 → unordered_map。
+>
+>想系统学习更多 C++ 知识？欢迎关注我的公众号「**跟着小康编程**」，我会持续更新 C、 C++、Linux、后端开发等高质量技术文章。也可以加我的个人微信，一起进群讨论学习！
+>
+> 
+> <table>
+> <tr>
+> <td align="center">
+> <img src="https://github.com/xiaokangcoding/follow-xiaokang-coding/raw/main/images/qrcode-wechat-official.png" width="200">
+> <br>
+> <em>公众号「跟着学小康编程」</em>
+> </td>
+> <td align="center">
+> <img src="https://github.com/xiaokangcoding/follow-xiaokang-coding/raw/main/images/qrcode-personal-wechat.png" width="200">
+> <br>
+> <em>个人微信（备注：加群）</em>
+> </td>
+> </tr>
+> </table>
+
 ## 一、一个真实的"血泪"故事
 
 前几天我同事小王一脸沮丧地走过来："我的程序怎么这么慢啊，数据量一大就卡得不行..."
