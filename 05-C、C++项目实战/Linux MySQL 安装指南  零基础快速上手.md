@@ -9,6 +9,24 @@
 
 别慌！今天这篇教程专门为小白量身定制，**保证你跟着做一遍就能成功**！我们用最简单的APT包管理器来安装，就像在手机上装APP一样简单。
 
+>想系统学习更多 C++ 知识？欢迎关注我的公众号「**跟着小康编程**」，我会持续更新 C、 C++、Linux、后端开发等高质量技术文章。也可以加我的个人微信，一起进群讨论学习！
+>
+> 
+> <table>
+> <tr>
+> <td align="center">
+> <img src="https://github.com/xiaokangcoding/follow-xiaokang-coding/raw/main/images/qrcode-wechat-official.png" width="200">
+> <br>
+> <em>公众号「跟着学小康编程」</em>
+> </td>
+> <td align="center">
+> <img src="https://github.com/xiaokangcoding/follow-xiaokang-coding/raw/main/images/qrcode-personal-wechat.png" width="200">
+> <br>
+> <em>个人微信（备注：加群）</em>
+> </td>
+> </tr>
+> </table>
+
 ## 📋 安装前的准备工作
 ### 第一步：确认你的Ubuntu版本
 首先，让我们确认一下系统版本。打开终端（按`Ctrl + Alt + T`），输入：

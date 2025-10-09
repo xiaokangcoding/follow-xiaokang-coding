@@ -8,6 +8,24 @@
 
 不仅让你学会基础下载，更重要的是为后续的**多线程高性能下载器**打下坚实基础！
 
+>想系统学习更多 C++ 知识？欢迎关注我的公众号「**跟着小康编程**」，我会持续更新 C、 C++、Linux、后端开发等高质量技术文章。也可以加我的个人微信，一起进群讨论学习！
+>
+> 
+> <table>
+> <tr>
+> <td align="center">
+> <img src="https://github.com/xiaokangcoding/follow-xiaokang-coding/raw/main/images/qrcode-wechat-official.png" width="200">
+> <br>
+> <em>公众号「跟着学小康编程」</em>
+> </td>
+> <td align="center">
+> <img src="https://github.com/xiaokangcoding/follow-xiaokang-coding/raw/main/images/qrcode-personal-wechat.png" width="200">
+> <br>
+> <em>个人微信（备注：加群）</em>
+> </td>
+> </tr>
+> </table>
+
 ## 为什么选择libcurl？
 在C++中实现HTTP下载，我们有很多选择：
 
