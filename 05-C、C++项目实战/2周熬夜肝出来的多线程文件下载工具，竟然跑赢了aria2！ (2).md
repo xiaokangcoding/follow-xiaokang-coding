@@ -45,9 +45,17 @@
 ## **<font style="color:rgb(51, 51, 51);">💎</font>****<font style="color:rgb(51, 51, 51);"> 项目技术含金量</font>**
 <font style="color:rgb(51, 51, 51);">这个项目将让你掌握：</font>
 
-<font style="color:rgb(51, 51, 51);">✅</font><font style="color:rgb(51, 51, 51);"> </font>**<font style="color:rgb(51, 51, 51);">网络编程高级技巧</font>**<font style="color:rgb(51, 51, 51);"> - libcurl深度应用，HTTP协议精通</font><font style="color:rgb(51, 51, 51);">✅</font><font style="color:rgb(51, 51, 51);"> </font>**<font style="color:rgb(51, 51, 51);">多线程并发设计</font>**<font style="color:rgb(51, 51, 51);"> - 16线程协同工作，性能榨干最后一滴</font><font style="color:rgb(51, 51, 51);">✅</font><font style="color:rgb(51, 51, 51);"> </font>**<font style="color:rgb(51, 51, 51);">断点续传核心算法</font>**<font style="color:rgb(51, 51, 51);"> - 网络中断不怕，随时可恢复。</font><font style="color:rgb(51, 51, 51);">✅</font><font style="color:rgb(51, 51, 51);"> </font>**<font style="color:rgb(51, 51, 51);">两种合并策略 -</font>**<font style="color:rgb(51, 51, 51);"> 文件合并 vs 定位写入，各有千秋</font>
+<font style="color:rgb(51, 51, 51);">✅</font><font style="color:rgb(51, 51, 51);"> </font>**<font style="color:rgb(51, 51, 51);">网络编程高级技巧</font>**<font style="color:rgb(51, 51, 51);"> - libcurl深度应用，HTTP协议精通</font>
 
-<font style="color:rgb(51, 51, 51);">✅</font><font style="color:rgb(51, 51, 51);"> </font>**<font style="color:rgb(51, 51, 51);">命令行工具</font>**<font style="color:rgb(51, 51, 51);"> - 专业级参数配置，使用体验媲美专业工具</font><font style="color:rgb(51, 51, 51);">✅</font><font style="color:rgb(51, 51, 51);"> </font>**<font style="color:rgb(51, 51, 51);">完整日志系统</font>**<font style="color:rgb(51, 51, 51);"> - 调试运行状态，问题追踪无死角</font>
+<font style="color:rgb(51, 51, 51);">✅</font><font style="color:rgb(51, 51, 51);"> </font>**<font style="color:rgb(51, 51, 51);">多线程并发设计</font>**<font style="color:rgb(51, 51, 51);"> - 16线程协同工作，性能榨干最后一滴</font>
+
+<font style="color:rgb(51, 51, 51);">✅</font><font style="color:rgb(51, 51, 51);"> </font>**<font style="color:rgb(51, 51, 51);">断点续传核心算法</font>**<font style="color:rgb(51, 51, 51);"> - 网络中断不怕，随时可恢复。</font>
+
+<font style="color:rgb(51, 51, 51);">✅</font><font style="color:rgb(51, 51, 51);"> </font>**<font style="color:rgb(51, 51, 51);">两种合并策略 -</font>**<font style="color:rgb(51, 51, 51);"> 文件合并 vs 定位写入，各有千秋</font>
+
+<font style="color:rgb(51, 51, 51);">✅</font><font style="color:rgb(51, 51, 51);"> </font>**<font style="color:rgb(51, 51, 51);">命令行工具</font>**<font style="color:rgb(51, 51, 51);"> - 专业级参数配置，使用体验媲美专业工具</font>
+
+<font style="color:rgb(51, 51, 51);">✅</font><font style="color:rgb(51, 51, 51);"> </font>**<font style="color:rgb(51, 51, 51);">完整日志系统</font>**<font style="color:rgb(51, 51, 51);"> - 调试运行状态，问题追踪无死角</font>
 
 <font style="color:rgb(51, 51, 51);">✅</font><font style="color:rgb(51, 51, 51);"> </font>**<font style="color:rgb(51, 51, 51);">实时进度显示</font>**<font style="color:rgb(51, 51, 51);"> - 下载进度、速度、预计时间一目了然</font>
 
@@ -112,7 +120,7 @@
 
 **<font style="color:rgb(51, 51, 51);">对 线程池 和 MySQL连接池 感兴趣的朋友可以看下面这2篇：</font>**
 
-[<font style="color:rgb(65, 131, 196);">手撸线程池才是C++程序员的硬实力！7天手把手带你从0到1完整实现</font>](https://mp.weixin.qq.com/s?__biz=MzkyNjQyMTMyOA==&mid=2247501391&idx=1&sn=58e44ed325f7aaefe49b63ebdf406233&scene=21#wechat_redirect)
+[<font style="color:rgb(65, 131, 196);">手撸线程池才是C++程序员的硬实力！7天手把手带你从0到1完整实现</font>](https://mp.weixin.qq.com/s/10md6XvqpFug5S7LW8m29Q)
 
-[<font style="color:rgb(65, 131, 196);">线程池卖爆了！这次直接上"王炸"——手撸4200行MySQL连接池，8天带你搞定后端核心组件！</font>](https://mp.weixin.qq.com/s?__biz=MzkyNjQyMTMyOA==&mid=2247501473&idx=1&sn=345dcd6ca5fdfaefb312efd229b91578&scene=21#wechat_redirect)
+[<font style="color:rgb(65, 131, 196);">线程池卖爆了！这次直接上"王炸"——手撸4200行MySQL连接池，8天带你搞定后端核心组件！</font>](https://mp.weixin.qq.com/s/b01e8Muwpgnd1jBgwB2fgg)
 
