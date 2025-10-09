@@ -14,6 +14,25 @@
 
 看到了吗？**相比标准malloc/free，平均性能提升4.62倍，最高达到7.37倍！**
 
+>想系统学习更多 C++ 知识？欢迎关注我的公众号「**跟着小康编程**」，我会持续更新 C、 C++、Linux、后端开发等高质量技术文章。也可以加我的个人微信，一起进群讨论学习！
+>
+> 
+> <table>
+> <tr>
+> <td align="center">
+> <img src="https://github.com/xiaokangcoding/follow-xiaokang-coding/raw/main/images/qrcode-wechat-official.png" width="200">
+> <br>
+> <em>公众号「跟着学小康编程」</em>
+> </td>
+> <td align="center">
+> <img src="https://github.com/xiaokangcoding/follow-xiaokang-coding/raw/main/images/qrcode-personal-wechat.png" width="200">
+> <br>
+> <em>个人微信（备注：加群）</em>
+> </td>
+> </tr>
+> </table>
+
+
 ## 为什么需要内存池？
 在开始撸代码之前，我们先来聊聊为什么要造这个轮子。
 
